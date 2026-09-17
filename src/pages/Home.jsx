@@ -1,6 +1,7 @@
 import SpaceCard from '../components/SpaceCard'
 import ProductCard from '../components/ProductCard'
 import EditorialBanner from '../components/EditorialBanner'
+import Newsletter from '../components/Newsletter'
 
 const featuredProducts = [
   {
@@ -172,7 +173,6 @@ function Home() {
 
 </section>
 
- <EditorialBanner />
 
  {/* Shop by Space */}
       <section className="mx-auto max-w-7xl px-6 py-20 md:py-28">
@@ -227,6 +227,10 @@ function Home() {
         </div>
 
       </section>
+     
+      <EditorialBanner />
+
+      <Newsletter />
 
     </main>
   )
